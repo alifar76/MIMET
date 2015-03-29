@@ -301,7 +301,7 @@ if __name__ == '__main__':
 	description='Microbial Metabolomics',
 	epilog='''
 An example to run the pipeline:
-python microbial_metabolites.py -i all_samples_metabolite_pipeline.tab -o all_samples_metabolite_pipeline_predicted.txt -r reaction -c compound
+python microbial_metabolites.py -i input_ko_table.tab -o predicted_metabolites.txt -r reaction -c compound
 	''')
 	parser.add_argument('-i', metavar='Input file', nargs=1, help='Name of the PICRUSt output file that\
 						serves as input the for metabolomics pipeline',required=True)
